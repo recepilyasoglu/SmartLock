@@ -7,17 +7,17 @@
 
 Servo smartLock;
 
-char auth[] = "BCkpXUs1CScB7_ojIMoFqCkz7QAlhr5M";
+char auth[] = "your blynk password";
 
-char ssid[] = "Mi Note 10 Lite";
-char pass[] = "8b7f06624193";
+char ssid[] = "your telephone name";
+char pass[] = "your telephone password";
 
 
 void setup() {
  
   Serial.begin(9600);
   
-  Blynk.begin("BCkpXUs1CScB7_ojIMoFqCkz7QAlhr5M", "Mi Note 10 Lite", "8b7f06624193");
+  Blynk.begin("your blynk password", "your telephone name", "your telephone password");
 
   smartLock.attach(1);
 
