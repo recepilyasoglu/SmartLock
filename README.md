@@ -7,5 +7,5 @@ e-mailime "Kapı Kilidi Açık" veya "Kapı Kilidi Kapalı"
 
 The door lock I prepared by giving instructions from the Blynk application loaded on the phone via NodeMCU in Arduino.
 I set it to the On/Off position and the active position
-"Door Unlocked" or "Door Unlocked" to my email
+"Door Unlocked" or "Door Locked" to my email
 I provided information in the form of.
