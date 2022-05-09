@@ -33,8 +33,8 @@ BLYNK_WRITE(V2)
  
   Blynk.virtualWrite(V0, "Kapı Durumu");
         
-    Blynk.email("rcp.ilyasoglu@gmail.com",String("Kapınızın Kilidi Açıldı"));
-    Blynk.virtualWrite(V1, "Açık");    
+  Blynk.email("useraccount@gmail.com",String("Kapınızın Kilidi Açıldı"));
+  Blynk.virtualWrite(V1, "Açık");    
                 
       servo();
 
@@ -46,8 +46,8 @@ BLYNK_WRITE(V3)
     Serial.print("Kapı Durumu: ");
     Serial.println("Kilitli");
 
-     Blynk.virtualWrite(V0, "Kapı Durumu");
-    Blynk.email("rcp.ilyasoglu@gmail.com",String("Kapınızın Kilidi Kapatıldı"));
+    Blynk.virtualWrite(V0, "Kapı Durumu");
+    Blynk.email("useraccount@gmail.com",String("Kapınızın Kilidi Kapatıldı"));
     Blynk.virtualWrite(V1, "Kilitli");
 
     smartLock.write(180);
